@@ -1,7 +1,7 @@
 .metadata
-frog/.classpath
-frog/.factorypath
-frog/.project
-frog/.settings/
-frog/target/
-frog/.springBeans
+.classpath
+.factorypath
+.project
+.settings/
+target/
+.springBeans
