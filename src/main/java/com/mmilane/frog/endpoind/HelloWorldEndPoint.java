@@ -8,14 +8,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/endpoint/helloworld")
+@RequestMapping("/")
 public class HelloWorldEndPoint {
 
 	public HelloWorldEndPoint() {
 		// TODO Auto-generated constructor stub
 	}
 	
-	@GetMapping("/teste")
+	@GetMapping
 	public List<String> teste(){
 		List<String> teste = new ArrayList<>();
 		teste.add("Hello");
